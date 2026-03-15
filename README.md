@@ -1,2 +1,1 @@
-# Runverve-SmartHeal
-Final Year Project
+# Runverve: SmartHeal
