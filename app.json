@@ -1,0 +1,58 @@
+{
+  "expo": {
+    "name": "SmartHeal",
+    "slug": "SmartHeal",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/Runverve.jpg",
+    "scheme": "smartheal",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "icon": "./assets/images/Runverve.jpg"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/images/Runverve.jpg",
+        "backgroundImage": "./assets/images/Runverve.jpg",
+        "monochromeImage": "./assets/images/Runverve.jpg"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "icon": "./assets/images/Runverve.jpg",
+      "package": "com.hrishikesh_gavai.SmartHeal"
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/Runverve.jpg"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/Runverve.jpg",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff",
+          "dark": {
+            "backgroundColor": "#000000"
+          }
+        }
+      ],
+      "expo-web-browser"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "3a6cb161-54f4-4d4b-9e6e-05bfcbf0634d"
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+import { Stack } from "expo-router";
+
+export default function MainLayout() {
+  return (
+    <Stack screenOptions={{ headerShown: false }}>
+      <Stack.Screen name="homepage" />
+      {/* Add any other main screens here */}
+    </Stack>
+  );
+}
